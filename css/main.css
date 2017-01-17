@@ -67,16 +67,61 @@ body {
     background-color: transparent;
 }
 
-.contacts-footer li a i{
+.contacts-footer li a i {
     margin-top: 8px;
     margin-right: 8px;
     color: #fff;
     display: block;
     float: left;
     clear: left;
+    transition: 0.4s
 }
-.contacts-footer li a span{
+
+.contacts-footer li a span {
     display: block;
     float: left;
     margin-top: 11px;
+}
+
+.contacts-footer li:hover i {
+    color: #9E9E9E;
+    animation: drag linear 0.6s
+}
+
+@keyframes drag {
+    0%,
+    100% {
+        transform: rotate(0deg)
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: rotate(5deg)
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: rotate(-5deg)
+    }
+}
+
+.social-footer li {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.social-footer li:not(:first-child) {
+    margin-left: 25px;
+}
+
+.social-footer li i {
+    transition: 0.3s
+}
+
+.social-footer li i:hover {
+    color: #FFF;
+    transform: scale(1.1)
 }
