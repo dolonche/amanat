@@ -66,3 +66,17 @@ body {
 .type-work .mdl-card__media {
     background-color: transparent;
 }
+
+.contacts-footer li a i{
+    margin-top: 8px;
+    margin-right: 8px;
+    color: #fff;
+    display: block;
+    float: left;
+    clear: left;
+}
+.contacts-footer li a span{
+    display: block;
+    float: left;
+    margin-top: 11px;
+}

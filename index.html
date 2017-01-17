@@ -12,190 +12,210 @@
 </head>
 
 <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
+    <div class="mdl-layout__container">
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header mdl-layout__header--waterfall">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title">Аманат</span>
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer"></div>
+                    <!-- Navigation. We hide it in small screens. -->
+                    <nav class="mdl-navigation mdl-layout--large-screen-only">
+                        <a class="mdl-navigation__link" href="">Главная</a>
+                        <a class="mdl-navigation__link" href="">Практика</a>
+                        <a class="mdl-navigation__link" href="">Новости</a>
+                        <a class="mdl-navigation__link" href="">Услуни и цены</a>
+                        <a class="mdl-navigation__link" href="">Контакты</a>
+                        <a class="mdl-navigation__link" href="">Форум</a>
+
+                    </nav>
+                    <div class="mdl-layout-spacer"></div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right header-search">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
+                            <i class="material-icons">search</i>
+                        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                            <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
                 <span class="mdl-layout-title">Аманат</span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation. We hide it in small screens. -->
-                <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="">Практика</a>
+                <nav class="mdl-navigation">
                     <a class="mdl-navigation__link" href="">Главная</a>
+                    <a class="mdl-navigation__link" href="">Практика</a>
                     <a class="mdl-navigation__link" href="">Новости</a>
                     <a class="mdl-navigation__link" href="">Услуни и цены</a>
                     <a class="mdl-navigation__link" href="">Контакты</a>
                     <a class="mdl-navigation__link" href="">Форум</a>
-
                 </nav>
-                <div class="mdl-layout-spacer"></div>
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-                  mdl-textfield--floating-label mdl-textfield--align-right header-search">
-                    <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
-                        <i class="material-icons">search</i>
-                    </label>
-                    <div class="mdl-textfield__expandable-holder">
-                        <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
+            </div>
+            <main class="mdl-layout__content">
+                <div class="content-grid mdl-grid main">
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone intro">
+                        <div class="intro-card mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Юридические услуги</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone title-service">
+                        <h2>Практика</h2></div>
+                    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp service-card">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Регистрация предприятий</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp service-card">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Юридические адреса</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp service-card">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Внесение изменений</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp service-card">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Составление договоров</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp service-card">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Споры с органами власти</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp service-card">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Миграционный учет</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp service-card">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Ликвидация компаний</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone title-service">
+                        <h2>Сферы работы</h2></div>
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp type-work">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Корпоративное право</h2>
+                            </div>
+                            <div class="mdl-card__media"><img src="/images/corporate-law.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp type-work">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Бухгалтерский учет</h2>
+                            </div>
+                            <div class="mdl-card__media"><img src="/images/accounting.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp type-work">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Трудовые споры</h2>
+                            </div>
+                            <div class="mdl-card__media"><img src="/images/labor-disputes.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card mdl-shadow--2dp type-work">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Миграционный учет</h2>
+                            </div>
+                            <div class="mdl-card__media"><img src="/images/migration-registration.png" alt=""></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Аманат</span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">Практика</a>
-                <a class="mdl-navigation__link" href="">Главная</a>
-                <a class="mdl-navigation__link" href="">Новости</a>
-                <a class="mdl-navigation__link" href="">Услуни и цены</a>
-                <a class="mdl-navigation__link" href="">Контакты</a>
-                <a class="mdl-navigation__link" href="">Форум</a>
-            </nav>
+                <footer class="mdl-mini-footer">
+                    <div class="content-grid mdl-grid mdl-layout__content">
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                            <div class="mdl-mega-footer__drop-down-section">
+                                <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                                <h1 class="mdl-mega-footer__heading">Контакты</h1>
+                                <ul class="mdl-mega-footer__link-list contacts-footer">
+                                    <li><a href="https://goo.gl/maps/AgMdeAotSHt"><i class="material-icons">directions</i><span>Москва, Страстной бульвар, д.11</span></a></li>
+                                    <li><a href="tel:+74956415667"><i class="material-icons">phone_forwarded</i><span> +7 (495) 641-56-67</span>
+</a></li>
+                                    <li><a href="mailto:amanat@amanat.su"><i class="material-icons">email</i><span> amanat@amanat.su</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </main>
         </div>
-        <main class="mdl-layout__content">
-            <div class="content-grid mdl-grid main">
-                <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone intro">
-                    <div class="intro-card mdl-card mdl-shadow--2dp">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Юридичкские услуги</h2>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone title-service">
-                    <h2>Практика</h2></div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp service-card">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Регистрация предприятий</h2>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp service-card">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Юридические адреса</h2>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp service-card">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Внесение изменений</h2>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp service-card">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Составление договоров</h2>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp service-card">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Споры с органами власти</h2>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp service-card">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Миграционный учет</h2>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp service-card">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Ликвидация компаний</h2>
-                        </div>
-                        <div class="mdl-card__supporting-text">
-                            Мы лидеры в решении правовых вопросов в области корпоративного права и управления предприятием, бухгалтерского учета, вопросов в сфере миграционного законодательства.
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Подробнее</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone title-service">
-                    <h2>Сферы работы</h2></div>
-                <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp type-work">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Корпоративное право</h2>
-                        </div>
-                        <div class="mdl-card__media"><img src="/images/corporate-law.png" alt=""></div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp type-work">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Бухгалтерский учет</h2>
-                        </div>
-                        <div class="mdl-card__media"><img src="/images/accounting.png" alt=""></div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp type-work">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Трудовые споры</h2>
-                        </div>
-                        <div class="mdl-card__media"><img src="/images/labor-disputes.png" alt=""></div>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-                    <div class="mdl-card mdl-shadow--2dp type-work">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Трудовые споры</h2>
-                        </div>
-                        <div class="mdl-card__media"><img src="/images/migration-registration.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-        </main>
+    </div>
 </body>
+
 
 </html>
