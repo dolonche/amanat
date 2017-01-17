@@ -1,0 +1,68 @@
+body {
+    font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+.header-search {
+    margin-top: 4px;
+}
+
+.intro-card {
+    width: 100%;
+    text-align: center;
+}
+
+.intro-card .mdl-card__title h2 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-grid {
+    max-width: 1200px;
+}
+
+.title-service {
+    text-align: center;
+}
+
+.title-service h2 {
+    font-weight: lighter
+}
+
+.service-card {
+    width: 100%;
+}
+
+
+/*
+.type-work-cards:first-of-type .type-work .mdl-card__supporting-text{
+    background-image: url(../images/corporate-law.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position: center
+}*/
+
+.service-card {
+    width: 100%;
+}
+
+.type-work {
+    width: 100%;
+    text-align: center;
+    height: 250px;
+}
+
+.type-work h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.type-work img {
+    width: 50%;
+    height: 140px;
+    margin-bottom: 15px;
+}
+
+.type-work .mdl-card__media {
+    background-color: transparent;
+}
